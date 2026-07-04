@@ -1,0 +1,467 @@
+﻿# TR BIM Shared Parameters Master — QA + ÇŞB 2026 + Bina Eleman Sınıflandırması
+# Sürüm: 4.0 | Tarih: 2026-03 | ISO 19650 / IFC / ÇŞB 2026 /
+# Not:  TR_BES bina eleman sınıflandırması eklenmiştir.
+# Do not edit manually.
+*META	VERSION	MINVERSION
+META	2	1
+*GROUP	ID	NAME
+GROUP	1	TR-GENEL PROJE BİLGİLERİ
+GROUP	2	TR-YAPI BİLGİLERİ
+GROUP	3	TR-YANGIN GÜVENLİĞİ (BYKHY 2019)
+GROUP	4	TR-DEPREM (TBDY 2018)
+GROUP	5	TR-ERİŞİLEBİLİRLİK (TS 9111)
+GROUP	6	TR-ENERJİ VERİMLİLİĞİ (BEP-TR)
+GROUP	7	TR-ÇŞB POZ NO VE METRAJ
+GROUP	8	TR-YAPI DENETİM
+GROUP	9	TR-İMAR BİLGİLERİ
+GROUP	10	TR-BIM YÖNETİM
+GROUP	11	TR-DUVAR ÖZELLİKLERİ
+GROUP	12	TR-KAPI ÖZELLİKLERİ
+GROUP	13	TR-PENCERE ÖZELLİKLERİ
+GROUP	14	TR-DÖŞEME ÖZELLİKLERİ
+GROUP	15	TR-ÇATI ÖZELLİKLERİ
+GROUP	16	TR-TS500 GENEL BETONARME
+GROUP	17	TR-TS500 BA ELEMAN ÖZELLİKLERİ
+GROUP	18	TR-TS500 BA DONATILAMA
+GROUP	19	TR-TS500 BA KONTROL VE UYGUNLUK
+GROUP	20	TR-MEP GENEL (Tesisat Proje Üst Verisi)
+GROUP	21	TR-HVAC HAVALANDIRMA VE KLİMA
+GROUP	22	TR-ISITMA VE SOĞUTMA SİSTEMİ
+GROUP	23	TR-SIHHI TESİSAT (TS EN 806)
+GROUP	24	TR-YANGIN TESİSATI (BYKHY 2019)
+GROUP	25	TR-ELEKTRİK GÜÇ SİSTEMLERİ
+GROUP	26	TR-ZAYIF AKIM SİSTEMLERİ
+GROUP	27	TR-MEP QA/QC KONTROL
+GROUP	28	TR-MEP METRAJ VE POZ
+GROUP	29	TR-SINIFLANDIRMA VE KOD SİSTEMLERİ
+GROUP	30	TR-BİNA ELEMAN SINIFLANDIRMASI
+GROUP	31	TR-ÇŞB 2026 YAPI SINIFI VE POZ KIRILIMI
+GROUP	32	TR-MAHAL VE KONUMSAL AYRIŞIM
+GROUP	33	TR-IFC İHRAC VE VERİ EŞLEME
+GROUP	34	TR-KEŞİF / METRAJ / MALİYET KIRILIMI
+GROUP	35	TR-QA VE TESLİM KONTROLÜ
+GROUP	36	TR-ILS / BİLGİ GEREKSİNİMİ
+*PARAM	GUID	NAME	DATATYPE	DATACATEGORY	GROUP	VISIBLE	DESCRIPTION	USERMODIFIABLE	HIDEWHENNOVALUE
+PARAM	f1a00001-0001-0001-0001-000000000001	TR_ProjeNo	TEXT		1	1	Proje numarası (ÇŞB/İdare kodu)	1	0
+PARAM	f1a00001-0001-0001-0001-000000000002	TR_ProjeAdi	TEXT		1	1	Projenin tam adı	1	0
+PARAM	f1a00001-0001-0001-0001-000000000003	TR_ProjeSahibi	TEXT		1	1	İşveren / Proje sahibi adı	1	0
+PARAM	f1a00001-0001-0001-0001-000000000004	TR_MimarAdSoyad	TEXT		1	1	Sorumlu mimar adı soyadı	1	0
+PARAM	f1a00001-0001-0001-0001-000000000005	TR_MimarOdaNo	TEXT		1	1	TMMOB Mimarlar Odası sicil no	1	0
+PARAM	f1a00001-0001-0001-0001-000000000006	TR_StatikMuhendis	TEXT		1	1	Sorumlu inşaat müh. adı soyadı	1	0
+PARAM	f1a00001-0001-0001-0001-000000000007	TR_StatikOdaNo	TEXT		1	1	IMO sicil no	1	0
+PARAM	f1a00001-0001-0001-0001-000000000008	TR_MekanikMuhendis	TEXT		1	1	Sorumlu makine müh. adı soyadı	1	0
+PARAM	f1a00001-0001-0001-0001-000000000009	TR_MekanikOdaNo	TEXT		1	1	MMO sicil no	1	0
+PARAM	f1a00001-0001-0001-0001-000000000010	TR_ElektrikMuhendis	TEXT		1	1	Sorumlu elektrik müh. adı soyadı	1	0
+PARAM	f1a00001-0001-0001-0001-000000000011	TR_ElektrikOdaNo	TEXT		1	1	EMO sicil no	1	0
+PARAM	f1a00001-0001-0001-0001-000000000012	TR_ProjeAsamasi	TEXT		1	1	Ön / Kesin / Uygulama / Ruhsat projesi	1	0
+PARAM	f1a00001-0001-0001-0001-000000000013	TR_ProjeRevizyon	TEXT		1	1	Revizyon no ve tarihi	1	0
+PARAM	f1a00001-0001-0001-0001-000000000014	TR_CizimNo	TEXT		1	1	Çizim/pafta numarası	1	0
+PARAM	f1a00001-0001-0001-0001-000000000015	TR_Olcek	TEXT		1	1	Çizim ölçeği (1:50, 1:100, 1:200 vb)	1	0
+PARAM	f1a00002-0001-0001-0001-000000000001	TR_YapiSinifi	TEXT		2	1	Yapı sınıfı: Basit/Normal/Büyük/Özel	1	0
+PARAM	f1a00002-0001-0001-0001-000000000002	TR_YapiKullanimAmaci	TEXT		2	1	Konut/Ticari/Endüstriyel/Karma	1	0
+PARAM	f1a00002-0001-0001-0001-000000000003	TR_KatAdedi	INTEGER		2	1	Toplam kat adedi (bodrum dahil)	1	0
+PARAM	f1a00002-0001-0001-0001-000000000004	TR_ToplamInsaatAlani	AREA		2	1	Toplam inşaat alanı (m2)	1	0
+PARAM	f1a00002-0001-0001-0001-000000000005	TR_BrutAlan	AREA		2	1	Brüt alan (m2)	1	0
+PARAM	f1a00002-0001-0001-0001-000000000006	TR_NetAlan	AREA		2	1	Net alan (m2)	1	0
+PARAM	f1a00002-0001-0001-0001-000000000007	TR_TabanAlani	AREA		2	1	Taban alanı (m2)	1	0
+PARAM	f1a00002-0001-0001-0001-000000000008	TR_YukseklikBinaH	LENGTH		2	1	BYKHY göre bina yüksekliği (m)	1	0
+PARAM	f1a00002-0001-0001-0001-000000000009	TR_KatYuksekligi	LENGTH		2	1	Net kat yüksekliği (m)	1	0
+PARAM	f1a00002-0001-0001-0001-000000000010	TR_TasiyiciSistem	TEXT		2	1	Betonarme/Çelik/Ahşap/Yığma	1	0
+PARAM	f1a00002-0001-0001-0001-000000000011	TR_DuvarMalzemesi	TEXT		2	1	Dış duvar malzemesi	1	0
+PARAM	f1a00002-0001-0001-0001-000000000012	TR_CatiSistemi	TEXT		2	1	Çatı sistemi tipi	1	0
+PARAM	f1a00002-0001-0001-0001-000000000013	TR_IsletimSertifikasi	TEXT		2	1	Bina kullanım sertifikası no	1	0
+PARAM	f1a00003-0001-0001-0001-000000000001	TR_YangBinaYuksKat	TEXT		3	1	Bina yükseklik sınıfı (BYKHY)	1	0
+PARAM	f1a00003-0001-0001-0001-000000000002	TR_YangKullanimSinifi	TEXT		3	1	Kullanım sınıfı (A1-G)	1	0
+PARAM	f1a00003-0001-0001-0001-000000000003	TR_YangTehlikeSinifi	TEXT		3	1	Yangın tehlike sınıfı	1	0
+PARAM	f1a00003-0001-0001-0001-000000000004	TR_YangYapiMalSinifi	TEXT		3	1	Yapı malz. yangın sınıfı (A1-F/s/d)	1	0
+PARAM	f1a00003-0001-0001-0001-000000000005	TR_YangKacinmaYolu	TEXT		3	1	Kaçınma yolu tipi ve sayısı	1	0
+PARAM	f1a00003-0001-0001-0001-000000000006	TR_YangKacisKorMesafe	LENGTH		3	1	Maks. kaçış mesafesi (m)	1	0
+PARAM	f1a00003-0001-0001-0001-000000000007	TR_YangMerdiven	TEXT		3	1	Yangın merdiveni tipi	1	0
+PARAM	f1a00003-0001-0001-0001-000000000008	TR_YangMerdivenGenislik	LENGTH		3	1	Merdiven genişliği (m)	1	0
+PARAM	f1a00003-0001-0001-0001-000000000009	TR_YangDuvarDirenc	TEXT		3	1	Duvar direnç süresi (REI-xx)	1	0
+PARAM	f1a00003-0001-0001-0001-000000000010	TR_YangKapiSinifi	TEXT		3	1	Yangın kapısı sınıfı (EI30/EI60/EI90)	1	0
+PARAM	f1a00003-0001-0001-0001-000000000011	TR_YangSprinklerVarMi	YESNO		3	1	Sprinkler sistemi var mı?	1	0
+PARAM	f1a00003-0001-0001-0001-000000000012	TR_YangSprinklerTipi	TEXT		3	1	Sprinkler sistemi tipi	1	0
+PARAM	f1a00003-0001-0001-0001-000000000013	TR_YangDumTasBarieri	YESNO		3	1	Duman taşıma bariyeri var mı?	1	0
+PARAM	f1a00003-0001-0001-0001-000000000014	TR_YangDumKontrolSis	TEXT		3	1	Duman kontrol sistemi tipi	1	0
+PARAM	f1a00003-0001-0001-0001-000000000015	TR_YangIhbarSistemi	TEXT		3	1	Yangın ihbar sistemi tipi	1	0
+PARAM	f1a00003-0001-0001-0001-000000000016	TR_YangHidrantVarMi	YESNO		3	1	Yangın hidrantı var mı?	1	0
+PARAM	f1a00003-0001-0001-0001-000000000017	TR_YangSigortaZonNo	TEXT		3	1	Yangın güvenlik zonu no	1	0
+PARAM	f1a00003-0001-0001-0001-000000000018	TR_YangAcilIsikVarMi	YESNO		3	1	Acil durum aydınlatma var mı?	1	0
+PARAM	f1a00003-0001-0001-0001-000000000019	TR_YangYonlendirmeVarMi	YESNO		3	1	Acil durum yönlendirme var mı?	1	0
+PARAM	f1a00003-0001-0001-0001-000000000020	TR_YangSiginmaAlani	AREA		3	1	Yangın sığınma alanı (m2)	1	0
+PARAM	f1a00004-0001-0001-0001-000000000001	TR_DepremBolgesi	TEXT		4	1	Deprem bölgesi DD-1/DD-2/DD-3/DD-4	1	0
+PARAM	f1a00004-0001-0001-0001-000000000002	TR_DepremYerTipi	TEXT		4	1	Zemin tipi ZA/ZB/ZC/ZD/ZE/ZF	1	0
+PARAM	f1a00004-0001-0001-0001-000000000003	TR_DepremBinaDPS	TEXT		4	1	Deprem performans seviyesi (BKS-1/2/3)	1	0
+PARAM	f1a00004-0001-0001-0001-000000000004	TR_DepremKullanim	TEXT		4	1	Kullanım sınıfı KKS-1/KKS-2/KKS-3	1	0
+PARAM	f1a00004-0001-0001-0001-000000000005	TR_DepremTasiyiciSis	TEXT		4	1	Depreme dayanıklı taşıyıcı sistem tipi	1	0
+PARAM	f1a00004-0001-0001-0001-000000000006	TR_DepremPerdeSistem	TEXT		4	1	Perde duvar sistemi	1	0
+PARAM	f1a00004-0001-0001-0001-000000000007	TR_DepremSismikAnaliz	TEXT		4	1	Sismik analiz yöntemi	1	0
+PARAM	f1a00004-0001-0001-0001-000000000008	TR_DepremSs	NUMBER		4	1	Kısa periyot spektral ivme Ss (g)	1	0
+PARAM	f1a00004-0001-0001-0001-000000000009	TR_DepremS1	NUMBER		4	1	1 sn periyot spektral ivme S1 (g)	1	0
+PARAM	f1a00004-0001-0001-0001-000000000010	TR_DepremPGA	NUMBER		4	1	PGA (g) tepe zemin ivmesi	1	0
+PARAM	f1a00004-0001-0001-0001-000000000011	TR_DepremGuclenDurumu	TEXT		4	1	Güçlendirme durumu	1	0
+PARAM	f1a00004-0001-0001-0001-000000000012	TR_DepremIzolasyonVarMi	YESNO		4	1	Sismik izolasyon var mı?	1	0
+PARAM	f1a00005-0001-0001-0001-000000000001	TR_EngRampaVarMi	YESNO		5	1	Engelli rampası var mı? (TS 9111)	1	0
+PARAM	f1a00005-0001-0001-0001-000000000002	TR_EngRampaEgimi	NUMBER		5	1	Rampa eğimi maks. (%) TS 9111	1	0
+PARAM	f1a00005-0001-0001-0001-000000000003	TR_EngAsansorVarMi	YESNO		5	1	Engelli asansörü var mı?	1	0
+PARAM	f1a00005-0001-0001-0001-000000000004	TR_EngWCVarMi	YESNO		5	1	Engelli WC var mı?	1	0
+PARAM	f1a00005-0001-0001-0001-000000000005	TR_EngOtoparkVarMi	YESNO		5	1	Engelli otoparkı var mı?	1	0
+PARAM	f1a00005-0001-0001-0001-000000000006	TR_EngKapiGenislik	LENGTH		5	1	Engelli kapı genişliği min. 90 cm	1	0
+PARAM	f1a00005-0001-0001-0001-000000000007	TR_EngHissedilebilirYuzey	YESNO		5	1	Hissedilebilir yüzey var mı?	1	0
+PARAM	f1a00005-0001-0001-0001-000000000008	TR_EngBrailleTabela	YESNO		5	1	Braille/sesli tabelalar var mı?	1	0
+PARAM	f1a00005-0001-0001-0001-000000000009	TR_EngSertifikaDurumu	TEXT		5	1	TS 9111 uygunluk belgesi durumu	1	0
+PARAM	f1a00005-0001-0001-0001-000000000010	TR_EngGecisGenislikKoridor	LENGTH		5	1	Koridor serbest geçiş genişliği (m)	1	0
+PARAM	f1a00006-0001-0001-0001-000000000001	TR_EnerjiSinifi	TEXT		6	1	Bina enerji sınıfı A+/A/B/C/D/E/F/G (BEP-TR)	1	0
+PARAM	f1a00006-0001-0001-0001-000000000002	TR_IklimBolgesi	TEXT		6	1	İklim bölgesi 1-4 (TS 825)	1	0
+PARAM	f1a00006-0001-0001-0001-000000000004	TR_CercevePencereUw	NUMBER		6	1	Pencere Uw değeri (W/m2K)	1	0
+PARAM	f1a00006-0001-0001-0001-000000000006	TR_ZeminKatUDegeri	NUMBER		6	1	Zemin kat döşemesi U değeri (W/m2K)	1	0
+PARAM	f1a00006-0001-0001-0001-000000000007	TR_IsitmaSistemi	TEXT		6	1	Isıtma sistemi tipi	1	0
+PARAM	f1a00006-0001-0001-0001-000000000008	TR_SogutmaSistemi	TEXT		6	1	Soğutma sistemi tipi	1	0
+PARAM	f1a00006-0001-0001-0001-000000000009	TR_HavalandirmaSistemi	TEXT		6	1	Havalandırma sistemi tipi	1	0
+PARAM	f1a00006-0001-0001-0001-000000000010	TR_YenilenebilirEnerji	TEXT		6	1	Yenilenebilir enerji sistemi (GES/RES vb)	1	0
+PARAM	f1a00006-0001-0001-0001-000000000011	TR_PrimaryEnerjiTuketim	NUMBER		6	1	Birincil enerji tüketimi (kWh/m2.yıl)	1	0
+PARAM	f1a00006-0001-0001-0001-000000000012	TR_CO2Emisyon	NUMBER		6	1	CO2 emisyon değeri (kg/m2.yıl)	1	0
+PARAM	f1a00006-0001-0001-0001-000000000013	TR_BepTrRaporNo	TEXT		6	1	BEP-TR hesap raporu referans no	1	0
+PARAM	f1a00006-0001-0001-0001-000000000003	TR_DuvarUDegeri	NUMBER		6	1	Dış duvar U değeri (W/m2K)	1	0
+PARAM	f1a00006-0001-0001-0001-000000000005	TR_CatiUDegeri	NUMBER		6	1	Çatı/teras U değeri (W/m2K)	1	0
+PARAM	f1a00007-0001-0001-0001-000000000001	TR_PozNo	TEXT		7	1	ÇŞB/YİGM poz numarası	1	0
+PARAM	f1a00007-0001-0001-0001-000000000002	TR_PozAdi	TEXT		7	1	Poz adı (birim fiyat kitabına göre)	1	0
+PARAM	f1a00007-0001-0001-0001-000000000003	TR_PozBirim	TEXT		7	1	Birim (m, m2, m3, adet, ton vb)	1	0
+PARAM	f1a00007-0001-0001-0001-000000000004	TR_PozMiktar	NUMBER		7	1	Miktar (hesaplanan)	1	0
+PARAM	f1a00007-0001-0001-0001-000000000005	TR_PozBirimFiyat	CURRENCY		7	1	Birim fiyat (TL)	1	0
+PARAM	f1a00007-0001-0001-0001-000000000006	TR_PozToplamTutar	CURRENCY		7	1	Toplam tutar (TL)	1	0
+PARAM	f1a00007-0001-0001-0001-000000000007	TR_PozMahalNo	TEXT		7	1	Mahal / bölge numarası	1	0
+PARAM	f1a00007-0001-0001-0001-000000000008	TR_PozImalatTuru	TEXT		7	1	İmalat türü (Kaba/İnce/Tesisat/Elektrik)	1	0
+PARAM	f1a00007-0001-0001-0001-000000000009	TR_PozDahilMi	YESNO		7	1	Metraj programına dahil mi?	1	0
+PARAM	f1a00007-0001-0001-0001-000000000010	TR_PozNot	TEXT		7	1	Poz açıklama notu	1	0
+PARAM	f1a00008-0001-0001-0001-000000000001	TR_YapDenetFirmasi	TEXT		8	1	Yapı denetim kuruluşu adı	1	0
+PARAM	f1a00008-0001-0001-0001-000000000002	TR_YapDenetFirmaYetNo	TEXT		8	1	Yapı denetim yetki belgesi no	1	0
+PARAM	f1a00008-0001-0001-0001-000000000003	TR_RuhsatNo	TEXT		8	1	Yapı ruhsatı numarası	1	0
+PARAM	f1a00008-0001-0001-0001-000000000004	TR_RuhsatTarihi	TEXT		8	1	Yapı ruhsatı tarihi	1	0
+PARAM	f1a00008-0001-0001-0001-000000000005	TR_MuteahhitUnvani	TEXT		8	1	Müteahhit firma ünvanı	1	0
+PARAM	f1a00008-0001-0001-0001-000000000006	TR_MuteahhitYKN	TEXT		8	1	Müteahhit YKN (Yapı Kimlik No)	1	0
+PARAM	f1a00008-0001-0001-0001-000000000007	TR_IsverenVergiNo	TEXT		8	1	İşveren vergi / TC kimlik no	1	0
+PARAM	f1a00008-0001-0001-0001-000000000008	TR_YapiSeviyesi	TEXT		8	1	Yapı seviyesi: Temel/Kaba/İnce/Teslim	1	0
+PARAM	f1a00009-0001-0001-0001-000000000001	TR_IlIlce	TEXT		9	1	İl / İlçe adı	1	0
+PARAM	f1a00009-0001-0001-0001-000000000002	TR_AdaNo	TEXT		9	1	Ada numarası	1	0
+PARAM	f1a00009-0001-0001-0001-000000000003	TR_ParselNo	TEXT		9	1	Parsel numarası	1	0
+PARAM	f1a00009-0001-0001-0001-000000000004	TR_TAKS	NUMBER		9	1	Taban alanı kat sayısı TAKS	1	0
+PARAM	f1a00009-0001-0001-0001-000000000005	TR_KAKS	NUMBER		9	1	Kat alanı kat sayısı KAKS (EMSAL)	1	0
+PARAM	f1a00009-0001-0001-0001-000000000006	TR_MaxYukseklik	LENGTH		9	1	İmar maks. bina yüksekliği (m)	1	0
+PARAM	f1a00009-0001-0001-0001-000000000007	TR_OnCekmeMesafesi	LENGTH		9	1	Ön cephe çekme mesafesi (m)	1	0
+PARAM	f1a00009-0001-0001-0001-000000000008	TR_YanCekmeMesafesi	LENGTH		9	1	Yan cephe çekme mesafesi (m)	1	0
+PARAM	f1a00009-0001-0001-0001-000000000009	TR_ArkaKcekmeMesafesi	LENGTH		9	1	Arka cephe çekme mesafesi (m)	1	0
+PARAM	f1a00009-0001-0001-0001-000000000010	TR_ImarDurumu	TEXT		9	1	İmar durumu belgesi no	1	0
+PARAM	f1a00010-0001-0001-0001-000000000001	TR_LODSeviyesi	TEXT		10	1	LOD seviyesi (100/200/300/350/400/500)	1	0
+PARAM	f1a00010-0001-0001-0001-000000000002	TR_LOISeviyesi	TEXT		10	1	LOI seviyesi (bilgi detay seviyesi)	1	0
+PARAM	f1a00010-0001-0001-0001-000000000003	TR_Disiplin	TEXT		10	1	Disiplin kodu (MIM/INS/MEK/ELK/YAN)	1	0
+PARAM	f1a00010-0001-0001-0001-000000000004	TR_IFCSurumu	TEXT		10	1	IFC sürümü (IFC2x3/IFC4/IFC4.3)	1	0
+PARAM	f1a00010-0001-0001-0001-000000000005	TR_KoordinatSistemi	TEXT		10	1	Koordinat sistemi (ITRF96 Türkiye)	1	0
+PARAM	f1a00010-0001-0001-0001-000000000006	TR_ModelDurumu	TEXT		10	1	Model durum kodu S0/S1/S2/S3/S4	1	0
+PARAM	f1a00010-0001-0001-0001-000000000007	TR_OlusturmaTarihi	TEXT		10	1	Model oluşturma tarihi (YYYY-AA-GG)	1	0
+PARAM	f1a00010-0001-0001-0001-000000000008	TR_SonGuncellemeTarihi	TEXT		10	1	Son güncelleme tarihi	1	0
+PARAM	f1a00010-0001-0001-0001-000000000009	TR_ModelSorumlusu	TEXT		10	1	BIM model sorumlusu adı	1	0
+PARAM	f1a00010-0001-0001-0001-000000000010	TR_FazBilgisi	TEXT		10	1	Proje fazı (Var/Yıkılacak/Yeni İnşaat)	1	0
+PARAM	bbda443e-3dfc-42e5-9f7a-3f2471698419	bSTR_Grup	TEXT		10	1	bSTR grup kodu (Bakanlık CADD standardı)	1	0
+PARAM	13d32f6d-c04e-4a08-be87-0c973cc83395	bSTR_LOD	TEXT		10	1	bSTR LOD seviyesi	1	0
+PARAM	455c437a-504a-446b-8e6f-fcdaa4b571af	bSTR_Disiplin	TEXT		10	1	bSTR disiplin kodu	1	0
+PARAM	682ef099-1ca6-4c4a-b585-714bfafb42b5	bSTR_Kod	TEXT		10	1	bSTR eleman kodu (örn: S-BET-09, M-DUV-01)	1	0
+PARAM	5107f9bb-d1b8-49f5-a1c8-ad697da2476f	bSTR_Eleman	TEXT		10	1	bSTR eleman adı	1	0
+PARAM	f1a00011-0001-0001-0001-000000000001	TR_DuvarTipi	TEXT		11	1	Duvar tipi: Dış/İç/Yangın/Strüktürel	1	0
+PARAM	f1a00011-0001-0001-0001-000000000002	TR_DuvarKalinligi	LENGTH		11	1	Duvar toplam kalınlığı (mm)	1	0
+PARAM	f1a00011-0001-0001-0001-000000000003	TR_DuvarYapimTuru	TEXT		11	1	Yapım türü: Tuğla/YTong/Beton/Çelik vb	1	0
+PARAM	f1a00011-0001-0001-0001-000000000004	TR_DuvarYalitimTipi	TEXT		11	1	Isı yalıtım tipi ve kalınlığı	1	0
+PARAM	f1a00011-0001-0001-0001-000000000005	TR_DuvarREI	TEXT		11	1	Yangın direnç sınıfı REI-30/60/90/120	1	0
+PARAM	f1a00011-0001-0001-0001-000000000006	TR_DuvarSesYalitim	NUMBER		11	1	Ses yalıtım değeri Rw (dB)	1	0
+PARAM	f1a00011-0001-0001-0001-000000000007	TR_DuvarUDegeri	NUMBER		11	1	U değeri (W/m2K)	1	0
+PARAM	f1a00011-0001-0001-0001-000000000008	TR_DuvarDisKaplama	TEXT		11	1	Dış kaplama malzemesi	1	0
+PARAM	f1a00011-0001-0001-0001-000000000009	TR_DuvarIcKaplama	TEXT		11	1	İç kaplama malzemesi	1	0
+PARAM	f1a00011-0001-0001-0001-000000000010	TR_DuvarPozNo	TEXT		11	1	ÇŞB poz numarası	1	0
+PARAM	f1a00012-0001-0001-0001-000000000001	TR_KapiTipi	TEXT		12	1	Kapı tipi: Ahşap/Çelik/Alüm/Cam/PVC	1	0
+PARAM	f1a00012-0001-0001-0001-000000000002	TR_KapiGenislik	LENGTH		12	1	Kapı serbest geçiş genişliği (mm)	1	0
+PARAM	f1a00012-0001-0001-0001-000000000003	TR_KapiYukseklik	LENGTH		12	1	Kapı yüksekliği (mm)	1	0
+PARAM	f1a00012-0001-0001-0001-000000000004	TR_KapiYangınSinifi	TEXT		12	1	Yangın sınıfı: EI30/EI60/EI90/EI120	1	0
+PARAM	f1a00012-0001-0001-0001-000000000005	TR_KapiEngelli	YESNO		12	1	Engelliye uygun kapı mı? (TS 9111)	1	0
+PARAM	f1a00012-0001-0001-0001-000000000006	TR_KapiPanikBar	YESNO		12	1	Panik bar var mı?	1	0
+PARAM	f1a00012-0001-0001-0001-000000000007	TR_KapiAcilisYonu	TEXT		12	1	Açılış yönü: İçe/Dışa/Sürgülü/Döner	1	0
+PARAM	f1a00012-0001-0001-0001-000000000008	TR_KapiKilitTipi	TEXT		12	1	Kilit tipi ve aksesuar bilgisi	1	0
+PARAM	f1a00012-0001-0001-0001-000000000009	TR_KapiUretici	TEXT		12	1	Üretici firma ve ürün kodu	1	0
+PARAM	f1a00012-0001-0001-0001-000000000010	TR_KapiPozNo	TEXT		12	1	ÇŞB poz numarası	1	0
+PARAM	f1a00012-0001-0001-0001-000000000011	TR_KapiUDegeri	NUMBER		12	1	Kapı Ud değeri (W/m2K)	1	0
+PARAM	f1a00012-0001-0001-0001-000000000012	TR_KapiSesYalitim	NUMBER		12	1	Ses yalıtım değeri Rw (dB)	1	0
+PARAM	f1a00013-0001-0001-0001-000000000001	TR_PencereTipi	TEXT		13	1	Pencere tipi: Alüm/PVC/Ahşap/Cam Giyd	1	0
+PARAM	f1a00013-0001-0001-0001-000000000002	TR_PencereGenislik	LENGTH		13	1	Pencere genişliği (mm)	1	0
+PARAM	f1a00013-0001-0001-0001-000000000003	TR_PencereYukseklik	LENGTH		13	1	Pencere yüksekliği (mm)	1	0
+PARAM	f1a00013-0001-0001-0001-000000000004	TR_PencereCamTipi	TEXT		13	1	Cam tipi: Isıcam 4+16+4 vb	1	0
+PARAM	f1a00013-0001-0001-0001-000000000005	TR_PencereUDegeri	NUMBER		13	1	Uw değeri (W/m2K) TS 825	1	0
+PARAM	f1a00013-0001-0001-0001-000000000006	TR_PencereSHGC	NUMBER		13	1	Güneş ısı kazanım katsayısı SHGC/g	1	0
+PARAM	f1a00013-0001-0001-0001-000000000007	TR_PencereAcilmaTipi	TEXT		13	1	Açılma tipi: Sabit/Kanatlı/Sürgülü	1	0
+PARAM	f1a00013-0001-0001-0001-000000000008	TR_PencereCerceveSistemi	TEXT		13	1	Çerçeve sistemi (60mm/70mm/80mm sistem)	1	0
+PARAM	f1a00013-0001-0001-0001-000000000009	TR_PencereSesYalitim	NUMBER		13	1	Ses yalıtım değeri Rw (dB)	1	0
+PARAM	f1a00013-0001-0001-0001-000000000010	TR_PencerePozNo	TEXT		13	1	ÇŞB poz numarası	1	0
+PARAM	f1a00013-0001-0001-0001-000000000011	TR_PencereUretici	TEXT		13	1	Üretici firma ve ürün kodu	1	0
+PARAM	f1a00013-0001-0001-0001-000000000012	TR_PencereEmniyet	YESNO		13	1	Emniyet camı var mı? (lamine/temperli)	1	0
+PARAM	f1a00014-0001-0001-0001-000000000001	TR_DosemeTipi	TEXT		14	1	Döşeme tipi: Betonarme/Kompozit/Ahşap	1	0
+PARAM	f1a00014-0001-0001-0001-000000000002	TR_DosemeKalinligi	LENGTH		14	1	Döşeme toplam kalınlığı (mm)	1	0
+PARAM	f1a00014-0001-0001-0001-000000000003	TR_DosemeKaplama	TEXT		14	1	Kaplama malzemesi: Seramik/Granit/Ahşap	1	0
+PARAM	f1a00014-0001-0001-0001-000000000004	TR_DosemeREI	TEXT		14	1	Yangın direnç sınıfı REI	1	0
+PARAM	f1a00014-0001-0001-0001-000000000005	TR_DosemeSuYalitim	YESNO		14	1	Su yalıtımı var mı?	1	0
+PARAM	f1a00014-0001-0001-0001-000000000006	TR_DosemeIsıYalitim	TEXT		14	1	Isı yalıtım tipi ve kalınlığı	1	0
+PARAM	f1a00014-0001-0001-0001-000000000007	TR_DosemeUDegeri	NUMBER		14	1	U değeri (W/m2K)	1	0
+PARAM	f1a00014-0001-0001-0001-000000000008	TR_DosemeSesYalitim	NUMBER		14	1	Ses yalıtım değeri (dB)	1	0
+PARAM	f1a00014-0001-0001-0001-000000000009	TR_DosemePozNo	TEXT		14	1	ÇŞB poz numarası	1	0
+PARAM	f1a00014-0001-0001-0001-000000000010	TR_DosemeYukKapasitesi	NUMBER		14	1	Tasarım yük kapasitesi (kN/m2)	1	0
+PARAM	f1a00015-0001-0001-0001-000000000001	TR_CatiTipi	TEXT		15	1	Çatı tipi: Eğimli/Düz/Yeşil/Kombine	1	0
+PARAM	f1a00015-0001-0001-0001-000000000002	TR_CatiEgimi	NUMBER		15	1	Çatı eğimi (%)	1	0
+PARAM	f1a00015-0001-0001-0001-000000000003	TR_CatiKaplama	TEXT		15	1	Çatı kaplama malzemesi	1	0
+PARAM	f1a00015-0001-0001-0001-000000000004	TR_CatiSuYalitim	TEXT		15	1	Su yalıtım sistemi tipi	1	0
+PARAM	f1a00015-0001-0001-0001-000000000005	TR_CatiIsıYalitim	TEXT		15	1	Isı yalıtım tipi ve kalınlığı	1	0
+PARAM	f1a00015-0001-0001-0001-000000000006	TR_CatiUDegeri	NUMBER		15	1	U değeri (W/m2K)	1	0
+PARAM	f1a00015-0001-0001-0001-000000000007	TR_CatiREI	TEXT		15	1	Yangın direnç sınıfı REI	1	0
+PARAM	f1a00015-0001-0001-0001-000000000008	TR_CatiPozNo	TEXT		15	1	ÇŞB poz numarası	1	0
+PARAM	f1a00016-0001-0001-0001-000000000001	TR_TS500_StandartSurum	TEXT		16	1	TS 500 sürümü (TS 500:2000+A1:2018)	1	0
+PARAM	f1a00016-0001-0001-0001-000000000002	TR_BetonSinifi_Proje	TEXT		16	1	Projede kullanılan beton sınıfları (C25/30 vb)	1	0
+PARAM	f1a00016-0001-0001-0001-000000000003	TR_DonatiCeligiSinifi_Proje	TEXT		16	1	Donatı çeliği sınıfı (B420C / B500C)	1	0
+PARAM	f1a00016-0001-0001-0001-000000000004	TR_CevreEtkiSinifi	TEXT		16	1	Çevre etki sınıfı (XC1-XC4 / XS / XD / XF)	1	0
+PARAM	f1a00016-0001-0001-0001-000000000005	TR_YapiTasiyiciSistemSinifi	TEXT		16	1	Taşıyıcı sistem sınıfı (TBDY: BYS-1..8)	1	0
+PARAM	f1a00016-0001-0001-0001-000000000006	TR_AnalizYontemi	TEXT		16	1	Analiz yöntemi (Mod Birlest./Zaman Tanım/İtme)	1	0
+PARAM	f1a00016-0001-0001-0001-000000000007	TR_StatikModelVersiyonu	TEXT		16	1	Statik model versiyon no (SAP2000/ETABS vb)	1	0
+PARAM	f1a00016-0001-0001-0001-000000000008	TR_HesapRaporNo	TEXT		16	1	Statik hesap raporu belge numarası	1	0
+PARAM	f1a00016-0001-0001-0001-000000000009	TR_RevizyonStatik	TEXT		16	1	Statik revizyon kodu ve tarihi	1	0
+PARAM	f1a00017-0001-0001-0001-000000000001	TR_BA_ElemanKodu	TEXT		17	1	BA eleman kodu (K01, P01, KR01, D01, T01)	1	0
+PARAM	f1a00017-0001-0001-0001-000000000002	TR_BA_ElemanTipi	TEXT		17	1	Kolon / Kiriş / Perde / Döşeme / Temel	1	0
+PARAM	f1a00017-0001-0001-0001-000000000003	TR_BA_TasiyiciSistemAltTuru	TEXT		17	1	Alt tür: Çerçeve/Perde+Çerçeve/Perdeli/Tüp	1	0
+PARAM	f1a00017-0001-0001-0001-000000000004	TR_BA_BetonSinifi	TEXT		17	1	Bu elemana ait beton sınıfı (C25/30, C30/37)	1	0
+PARAM	f1a00017-0001-0001-0001-000000000005	TR_BA_DonatiSinifi	TEXT		17	1	Donatı sınıfı (B420C / B500C)	1	0
+PARAM	f1a00017-0001-0001-0001-000000000006	TR_BA_NominalBetonOrtusu	LENGTH		17	1	Nominal beton örtüsü (mm) — TS 500 Tablo 3	1	0
+PARAM	f1a00017-0001-0001-0001-000000000007	TR_BA_KesitGenislik	LENGTH		17	1	Kesit genişliği b (mm)	1	0
+PARAM	f1a00017-0001-0001-0001-000000000008	TR_BA_KesitYukseklik	LENGTH		17	1	Kesit yüksekliği h (mm)	1	0
+PARAM	f1a00017-0001-0001-0001-000000000009	TR_BA_DosemeKalinligi	LENGTH		17	1	Döşeme kalınlığı (mm)	1	0
+PARAM	f1a00017-0001-0001-0001-000000000010	TR_BA_PerdeKalinligi	LENGTH		17	1	Perde duvar kalınlığı (mm) — TBDY min. 200mm	1	0
+PARAM	f1a00017-0001-0001-0001-000000000011	TR_BA_TemelTipi	TEXT		17	1	Temel tipi: Tekil/Sürekli/Radye/Kazık/Kirişli	1	0
+PARAM	f1a00017-0001-0001-0001-000000000012	TR_BA_PrecastMi	YESNO		17	1	Prefabrik/precast eleman mi?	1	0
+PARAM	f1a00017-0001-0001-0001-000000000013	TR_BA_ImalatDurumu	TEXT		17	1	Planlı / Kalıp / Beton / Tamamlandı	1	0
+PARAM	f1a00018-0001-0001-0001-000000000001	TR_BA_AnaDonatiUst	TEXT		18	1	Üst ana donatı (örn: 4Ø16 / 3Ø20+2Ø16)	1	0
+PARAM	f1a00018-0001-0001-0001-000000000002	TR_BA_AnaDonatiAlt	TEXT		18	1	Alt ana donatı (örn: 3Ø16)	1	0
+PARAM	f1a00018-0001-0001-0001-000000000003	TR_BA_GovdeDonatisi	TEXT		18	1	Gövde donatısı — kirişler için (TS 500 Md.9)	1	0
+PARAM	f1a00018-0001-0001-0001-000000000004	TR_BA_EtriyeCapi	LENGTH		18	1	Etriye çapı (mm): 8 / 10 / 12	1	0
+PARAM	f1a00018-0001-0001-0001-000000000005	TR_BA_EtriyeAraligi	LENGTH		18	1	Etriye aralığı orta bölge (mm)	1	0
+PARAM	f1a00018-0001-0001-0001-000000000006	TR_BA_SiklastirmaBolgesiVarMi	YESNO		18	1	Sıklaştırma bölgesi var mı? (TBDY Bölüm 7)	1	0
+PARAM	f1a00018-0001-0001-0001-000000000007	TR_BA_SiklastirmaAraligi	LENGTH		18	1	Sıklaştırma bölgesi etriye aralığı (mm)	1	0
+PARAM	f1a00018-0001-0001-0001-000000000008	TR_BA_PilyeVarMi	YESNO		18	1	Pilye donatısı var mı?	1	0
+PARAM	f1a00018-0001-0001-0001-000000000009	TR_BA_FilletoVarMi	YESNO		18	1	Filleto (köşe) donatısı var mı?	1	0
+PARAM	f1a00018-0001-0001-0001-000000000010	TR_BA_PasPayiKontrol	YESNO		18	1	Pas payı TS 500 Tablo 3 kontrolü geçti mi?	1	0
+PARAM	f1a00018-0001-0001-0001-000000000011	TR_BA_AnkrajBoyu	LENGTH		18	1	Hesaplanan ankraj boyu lb (mm) — TS 500 Md.8	1	0
+PARAM	f1a00018-0001-0001-0001-000000000012	TR_BA_EkBoyu	LENGTH		18	1	Bindirme ek boyu ls (mm) — TS 500 Md.8	1	0
+PARAM	f1a00018-0001-0001-0001-000000000013	TR_BA_DonatiNotu	TEXT		18	1	Donatı özel notu / pafta açıklaması	1	0
+PARAM	f1a00019-0001-0001-0001-000000000001	TR_BA_TS500_KontrolDurumu	TEXT		19	1	TS 500 uyum: Uygun / İncelemede / Revize	1	0
+PARAM	f1a00019-0001-0001-0001-000000000002	TR_BA_TBDY_UyumDurumu	TEXT		19	1	TBDY 2018 uyum: Uygun / Revize Gerekli	1	0
+PARAM	f1a00019-0001-0001-0001-000000000003	TR_BA_RevizyonGerekiyorMu	YESNO		19	1	Revizyon gerekiyor mu? (QC bayrağı)	1	0
+PARAM	f1a00019-0001-0001-0001-000000000004	TR_BA_KontrolEden	TEXT		19	1	Kontrol eden mühendis adı soyadı	1	0
+PARAM	f1a00019-0001-0001-0001-000000000005	TR_BA_KontrolTarihi	TEXT		19	1	Kontrol tarihi (YYYY-AA-GG)	1	0
+PARAM	f1a00019-0001-0001-0001-000000000006	TR_BA_Onaylayan	TEXT		19	1	Onaylayan mühendis adı soyadı	1	0
+PARAM	f1a00019-0001-0001-0001-000000000007	TR_BA_OnayTarihi	TEXT		19	1	Onay tarihi (YYYY-AA-GG)	1	0
+PARAM	f1a00019-0001-0001-0001-000000000008	TR_BA_Aciklama	TEXT		19	1	Genel açıklama / uyarı notu	1	0
+PARAM	f1a00019-0001-0001-0001-000000000009	TR_BA_HesapModelID	TEXT		19	1	Bağlı hesap modeli kimliği (SAP/ETABS ID)	1	0
+PARAM	f1a00019-0001-0001-0001-000000000010	TR_BA_IFCExportSinifi	TEXT		19	1	IFC export sınıfı: 07_YAPISAL / alt kategori	1	0
+PARAM	f1a00020-0001-0001-0001-000000000001	TR_MEP_MekMuhendis	TEXT		20	1	Sorumlu makine müh. adı soyadı (MEP)	1	0
+PARAM	f1a00020-0001-0001-0001-000000000002	TR_MEP_MekOdaNo	TEXT		20	1	MMO sicil no	1	0
+PARAM	f1a00020-0001-0001-0001-000000000003	TR_MEP_ElkMuhendis	TEXT		20	1	Sorumlu elektrik müh. adı soyadı	1	0
+PARAM	f1a00020-0001-0001-0001-000000000004	TR_MEP_ElkOdaNo	TEXT		20	1	EMO sicil no	1	0
+PARAM	f1a00020-0001-0001-0001-000000000005	TR_MEP_ModelVersiyonu	TEXT		20	1	MEP model versiyon no	1	0
+PARAM	f1a00020-0001-0001-0001-000000000006	TR_MEP_KoordinasyonDurumu	TEXT		20	1	Koordinasyon durumu: Bekliyor/Devam/Tamamlandı	1	0
+PARAM	f1a00020-0001-0001-0001-000000000007	TR_MEP_ClashTespitTarihi	TEXT		20	1	Son çakışma tespiti tarihi (YYYY-AA-GG)	1	0
+PARAM	f1a00020-0001-0001-0001-000000000008	TR_MEP_ClashDurumu	TEXT		20	1	Çakışma durumu: Temiz / X adet açık	1	0
+PARAM	f1a00020-0001-0001-0001-000000000009	TR_MEP_IFCSurumu	TEXT		20	1	IFC sürümü MEP modeli (IFC4 MEP)	1	0
+PARAM	f1a00020-0001-0001-0001-000000000010	TR_MEP_HesapRaporNo	TEXT		20	1	MEP hesap raporu belge numarası	1	0
+PARAM	f1a00021-0001-0001-0001-000000000004	TR_HVAC_KanalMalzeme	TEXT		20	1	Kanal malzemesi: Galv. Çelik/SS/PVC/Spiro	1	0
+PARAM	f1a00021-0001-0001-0001-000000000001	TR_HVAC_SistemTipi	TEXT		21	1	Sistem tipi: VAV/CAV/VRF/Chiller/Split vb	1	0
+PARAM	f1a00021-0001-0001-0001-000000000002	TR_HVAC_KapalıDevreMi	YESNO		21	1	Kapalı devre sistemi mi?	1	0
+PARAM	f1a00021-0001-0001-0001-000000000003	TR_HVAC_KanalTipi	TEXT		21	1	Kanal tipi: Dikdörtgen/Yuvarlak/Oval/Flex	1	0
+PARAM	f1a00021-0001-0001-0001-000000000005	TR_HVAC_HavaHizi	NUMBER		21	1	Tasarım hava hızı (m/s)	1	0
+PARAM	f1a00021-0001-0001-0001-000000000006	TR_HVAC_HavaDebisi	NUMBER		21	1	Hava debisi (m3/h)	1	0
+PARAM	f1a00021-0001-0001-0001-000000000007	TR_HVAC_BasıncKaybi	NUMBER		21	1	Basınç kaybı (Pa)	1	0
+PARAM	f1a00021-0001-0001-0001-000000000008	TR_HVAC_YalitimTipi	TEXT		21	1	Kanal yalıtım tipi ve kalınlığı (mm)	1	0
+PARAM	f1a00021-0001-0001-0001-000000000009	TR_HVAC_YangınDamperVarMi	YESNO		21	1	Yangın damperi var mı? (BYKHY)	1	0
+PARAM	f1a00021-0001-0001-0001-000000000010	TR_HVAC_DumDamperVarMi	YESNO		21	1	Duman damperi var mı?	1	0
+PARAM	f1a00021-0001-0001-0001-000000000011	TR_HVAC_SistemAdi	TEXT		21	1	Sistem adı/kodu (örn: HV-01, EX-01)	1	0
+PARAM	f1a00021-0001-0001-0001-000000000012	TR_HVAC_GurultuSeviyesi	NUMBER		21	1	Gürültü seviyesi NC/dB(A)	1	0
+PARAM	f1a00022-0001-0001-0001-000000000001	TR_ISI_SistemTipi	TEXT		22	1	Sistem: Radyatör/Fancoil/Yerden Isıtma/VRF	1	0
+PARAM	f1a00022-0001-0001-0001-000000000002	TR_ISI_KazanTipi	TEXT		22	1	Kazan tipi: Yoğuşmalı/Klasik/Isı Pompası	1	0
+PARAM	f1a00022-0001-0001-0001-000000000003	TR_ISI_BorMalzeme	TEXT		22	1	Boru malzemesi: Çelik/Bakır/PPR/PEX/CPVC	1	0
+PARAM	f1a00022-0001-0001-0001-000000000004	TR_ISI_BorCap	LENGTH		22	1	Boru çapı DN (mm)	1	0
+PARAM	f1a00022-0001-0001-0001-000000000005	TR_ISI_IsıtmaDebi	NUMBER		22	1	Isıtma debisi (l/h)	1	0
+PARAM	f1a00022-0001-0001-0001-000000000006	TR_ISI_SogutmaDebi	NUMBER		22	1	Soğutma debisi (l/h)	1	0
+PARAM	f1a00022-0001-0001-0001-000000000007	TR_ISI_GirisScakligi	NUMBER		22	1	Giriş sıcaklığı (°C)	1	0
+PARAM	f1a00022-0001-0001-0001-000000000008	TR_ISI_DonusScakligi	NUMBER		22	1	Dönüş sıcaklığı (°C)	1	0
+PARAM	f1a00022-0001-0001-0001-000000000009	TR_ISI_YalitimTipi	TEXT		22	1	Boru yalıtım tipi ve kalınlığı	1	0
+PARAM	f1a00022-0001-0001-0001-000000000010	TR_ISI_BasincSinifi	TEXT		22	1	Basınç sınıfı PN6/PN10/PN16/PN25	1	0
+PARAM	f1a00022-0001-0001-0001-000000000011	TR_ISI_SistemAdi	TEXT		22	1	Sistem adı/kodu (örn: IS-01, SG-01)	1	0
+PARAM	f1a00023-0001-0001-0001-000000000001	TR_SHT_SistemTipi	TEXT		23	1	Sistem: SK/SK-Sicak/PIS/YMU/YAG/YANGSU	1	0
+PARAM	f1a00023-0001-0001-0001-000000000002	TR_SHT_BorMalzeme	TEXT		23	1	Boru malzemesi: PPR/PVC/KPVC/Bakır/HDPE	1	0
+PARAM	f1a00023-0001-0001-0001-000000000003	TR_SHT_BorCap	LENGTH		23	1	Boru çapı DN (mm)	1	0
+PARAM	f1a00023-0001-0001-0001-000000000004	TR_SHT_BasincSinifi	TEXT		23	1	Basınç sınıfı PN	1	0
+PARAM	f1a00023-0001-0001-0001-000000000005	TR_SHT_EgimYuzde	NUMBER		23	1	Pis su boru eğimi (%)	1	0
+PARAM	f1a00023-0001-0001-0001-000000000006	TR_SHT_HidroforVarMi	YESNO		23	1	Hidrofor sistemi var mı?	1	0
+PARAM	f1a00023-0001-0001-0001-000000000007	TR_SHT_DepoHacmi	NUMBER		23	1	Su deposu hacmi (m3)	1	0
+PARAM	f1a00023-0001-0001-0001-000000000008	TR_SHT_SicakSuSistemi	TEXT		23	1	Sıcak su sistemi: Merkezi/Bireysel/Güneş	1	0
+PARAM	f1a00023-0001-0001-0001-000000000009	TR_SHT_YalitimTipi	TEXT		23	1	Boru yalıtım tipi ve kalınlığı	1	0
+PARAM	f1a00023-0001-0001-0001-000000000010	TR_SHT_SistemAdi	TEXT		23	1	Sistem kodu (örn: SK-01, PIS-01)	1	0
+PARAM	f1a00024-0001-0001-0001-000000000001	TR_YAN_SprinklerTipi	TEXT		24	1	Sprinkler tipi: Islak/Kuru/Ön-etkili/Deluge	1	0
+PARAM	f1a00024-0001-0001-0001-000000000002	TR_YAN_SprinklerBasinc	NUMBER		24	1	Tasarım basıncı (bar)	1	0
+PARAM	f1a00024-0001-0001-0001-000000000003	TR_YAN_SprinklerDebi	NUMBER		24	1	Tasarım debisi (l/dak)	1	0
+PARAM	f1a00024-0001-0001-0001-000000000004	TR_YAN_HazardSinifi	TEXT		24	1	Tehlike sınıfı: LH/OH1/OH2/OH3/OH4/HH	1	0
+PARAM	f1a00024-0001-0001-0001-000000000005	TR_YAN_BorMalzeme	TEXT		24	1	Yangın borusu malzeme: Çelik/CPVC	1	0
+PARAM	f1a00024-0001-0001-0001-000000000006	TR_YAN_BorCap	LENGTH		24	1	Yangın borusu çapı DN (mm)	1	0
+PARAM	f1a00024-0001-0001-0001-000000000007	TR_YAN_ItfaiyeBaglantisi	YESNO		24	1	İtfaiye bağlantısı var mı?	1	0
+PARAM	f1a00024-0001-0001-0001-000000000008	TR_YAN_HidrantTipi	TEXT		24	1	Hidrant tipi: İç/Dış/Yerüstü	1	0
+PARAM	f1a00024-0001-0001-0001-000000000009	TR_YAN_KosumaDebi	NUMBER		24	1	Koşuma debisi (l/dak) BYKHY Tablo	1	0
+PARAM	f1a00024-0001-0001-0001-000000000010	TR_YAN_SistemAdi	TEXT		24	1	Yangın sistemi kodu (örn: YAN-SPR-01)	1	0
+PARAM	f1a00025-0001-0001-0001-000000000001	TR_ELK_SistemGerilimiV	NUMBER		25	1	Sistem gerilimi (V): 230/400	1	0
+PARAM	f1a00025-0001-0001-0001-000000000002	TR_ELK_KableTipi	TEXT		25	1	Kablo tipi: NYY/NYAF/N2XH/FTZ/NHXMH	1	0
+PARAM	f1a00025-0001-0001-0001-000000000003	TR_ELK_KableCap	TEXT		25	1	Kablo kesiti (mm2): 1.5/2.5/4/6/10/16	1	0
+PARAM	f1a00025-0001-0001-0001-000000000004	TR_ELK_DevreTipi	TEXT		25	1	Devre tipi: Aydınlatma/Priz/Motor/Güç	1	0
+PARAM	f1a00025-0001-0001-0001-000000000005	TR_ELK_PanoAdi	TEXT		25	1	Bağlı pano adı (örn: DP-01, ATP-01)	1	0
+PARAM	f1a00025-0001-0001-0001-000000000006	TR_ELK_DevreNo	TEXT		25	1	Devre numarası	1	0
+PARAM	f1a00025-0001-0001-0001-000000000007	TR_ELK_GuvenlikSinifi	TEXT		25	1	Güvenlik sınıfı: IP20/IP44/IP65/IP67	1	0
+PARAM	f1a00025-0001-0001-0001-000000000008	TR_ELK_YangindaCalismaSuresi	NUMBER		25	1	Yangında çalışma süresi dk (acil devre)	1	0
+PARAM	f1a00025-0001-0001-0001-000000000009	TR_ELK_KorumaTipi	TEXT		25	1	Koruma tipi: MCB/MCCB/RCD/AFCI	1	0
+PARAM	f1a00025-0001-0001-0001-000000000010	TR_ELK_SistemAdi	TEXT		25	1	Elektrik sistemi kodu (örn: ELK-GUC-01)	1	0
+PARAM	f1a00026-0001-0001-0001-000000000001	TR_ZA_SistemTipi	TEXT		26	1	Sistem: Data/Tel/CCTV/Kart/Alarm/OKS/BMS	1	0
+PARAM	f1a00026-0001-0001-0001-000000000002	TR_ZA_KableTipi	TEXT		26	1	Kablo tipi: Cat6/Cat6A/FO/Koaksiyel/J-Y(ST)Y	1	0
+PARAM	f1a00026-0001-0001-0001-000000000003	TR_ZA_CihazAdi	TEXT		26	1	Cihaz adı / modeli	1	0
+PARAM	f1a00026-0001-0001-0001-000000000004	TR_ZA_ZonNo	TEXT		26	1	Bölge/Zone numarası (yangın alarm vb)	1	0
+PARAM	f1a00026-0001-0001-0001-000000000005	TR_ZA_IPAdresi	TEXT		26	1	IP adresi (ağ cihazları için)	1	0
+PARAM	f1a00026-0001-0001-0001-000000000006	TR_ZA_GucTuketimi	NUMBER		26	1	Güç tüketimi (W)	1	0
+PARAM	f1a00026-0001-0001-0001-000000000007	TR_ZA_POEVarMi	YESNO		26	1	PoE (Power over Ethernet) var mı?	1	0
+PARAM	f1a00026-0001-0001-0001-000000000008	TR_ZA_SistemAdi	TEXT		26	1	Sistem kodu (örn: BMS-01, CCTV-01)	1	0
+PARAM	f1a00027-0001-0001-0001-000000000001	TR_MEP_KontrolDurumu	TEXT		27	1	Kontrol durumu: Uygun / İncelemede / Revize	1	0
+PARAM	f1a00027-0001-0001-0001-000000000002	TR_MEP_RevizyonGerekiyorMu	YESNO		27	1	Revizyon gerekiyor mu? (QC bayrağı)	1	0
+PARAM	f1a00027-0001-0001-0001-000000000003	TR_MEP_KontrolEden	TEXT		27	1	Kontrol eden mühendis adı soyadı	1	0
+PARAM	f1a00027-0001-0001-0001-000000000004	TR_MEP_KontrolTarihi	TEXT		27	1	Kontrol tarihi (YYYY-AA-GG)	1	0
+PARAM	f1a00027-0001-0001-0001-000000000005	TR_MEP_Onaylayan	TEXT		27	1	Onaylayan mühendis adı soyadı	1	0
+PARAM	f1a00027-0001-0001-0001-000000000006	TR_MEP_OnayTarihi	TEXT		27	1	Onay tarihi (YYYY-AA-GG)	1	0
+PARAM	f1a00027-0001-0001-0001-000000000007	TR_MEP_ClashCozulduMu	YESNO		27	1	Çakışma sorunu çözüldü mü?	1	0
+PARAM	f1a00027-0001-0001-0001-000000000008	TR_MEP_Aciklama	TEXT		27	1	Açıklama / uyarı notu	1	0
+PARAM	f1a00027-0001-0001-0001-000000000009	TR_MEP_HesapModelID	TEXT		27	1	Bağlı hesap modeli ID	1	0
+PARAM	f1a00027-0001-0001-0001-000000000010	TR_MEP_IFCExportSinifi	TEXT		27	1	IFC export sınıfı (08_MEP / alt kategori)	1	0
+PARAM	f1a00028-0001-0001-0001-000000000001	TR_MEP_PozNo	TEXT		28	1	ÇŞB/YİGM MEP poz numarası	1	0
+PARAM	f1a00028-0001-0001-0001-000000000002	TR_MEP_PozAdi	TEXT		28	1	Poz adı	1	0
+PARAM	f1a00028-0001-0001-0001-000000000003	TR_MEP_Birim	TEXT		28	1	Birim: m / m2 / adet / kW vb	1	0
+PARAM	f1a00028-0001-0001-0001-000000000004	TR_MEP_Miktar	NUMBER		28	1	Miktar	1	0
+PARAM	f1a00028-0001-0001-0001-000000000005	TR_MEP_BirimFiyat	CURRENCY		28	1	Birim fiyat (TL)	1	0
+PARAM	f1a00028-0001-0001-0001-000000000006	TR_MEP_ToplamTutar	CURRENCY		28	1	Toplam tutar (TL)	1	0
+PARAM	9c805a5d-0c5e-59fa-abd3-67de5d0bc520	TR_SinifSistemi	TEXT		29	1	Kullanılan ana sınıflandırma sistemi (TR_BIM / NL-SfB / UniClass / özel idare standardı)	1	0
+PARAM	6736a3a0-7e39-51b2-a2f6-85a7a8ad8021	TR_SinifKod1	TEXT		29	1	Birincil sınıflandırma kodu	1	0
+PARAM	550773f3-84e3-55e6-92e8-6ad9580319f3	TR_SinifKod2	TEXT		29	1	İkincil sınıflandırma kodu	1	0
+PARAM	37565117-4d6d-5bac-a08b-fb8e357d9a32	TR_SinifKod3	TEXT		29	1	Üçüncül sınıflandırma kodu	1	0
+PARAM	1c9d6249-d730-59e7-ab31-207ea22bab52	TR_SinifAdi	TEXT		29	1	Sınıflandırma adının okunabilir karşılığı	1	0
+PARAM	24397964-60d0-534a-9f2f-64de86ed931e	TR_ElemanKod	TEXT		29	1	Eleman / tip / sistem kodu	1	0
+PARAM	a986e14e-cc3d-5093-b1e0-ce1742be81cb	TR_ElemanAdi	TEXT		29	1	Eleman / tip / sistem adı	1	0
+PARAM	884d7082-37df-5fc9-85bf-a0a058edd9cf	TR_ElemanAileKodu	TEXT		29	1	Aile / ürün ailesi kodu	1	0
+PARAM	874555f8-2c2a-5182-950e-311501a1e92f	TR_MalzemeSinifKodu	TEXT		29	1	Malzeme sınıf kodu	1	0
+PARAM	cdb5b807-7fca-5d4c-87de-02f40e12f83b	TR_MalzemeSinifAdi	TEXT		29	1	Malzeme sınıf adı	1	0
+PARAM	b731d758-9bbd-573a-9bab-9bd610ead96a	TR_IsDisEleman	YESNO		29	1	Eleman dış ortam / dış kabuk ile ilişkili mi?	1	0
+PARAM	647eb9a7-350e-5473-bcdb-2be7abdb0122	TR_IsTasiyici	YESNO		29	1	Eleman taşıyıcı görev yapıyor mu?	1	0
+PARAM	aa0ea289-9ac3-5fba-9176-61ea28d6c588	TR_BES_AnaKod	TEXT		30	1	Bina eleman sınıflandırması ana grup kodu	1	0
+PARAM	720694a7-a00f-50b6-b118-6622aa6c7809	TR_BES_AnaGrup	TEXT		30	1	Bina eleman sınıflandırması ana grup adı	1	0
+PARAM	163fb17b-82a8-58e0-9be4-8600e5a35954	TR_BES_AltKod	TEXT		30	1	Bina eleman sınıflandırması alt grup kodu	1	0
+PARAM	d58a965a-5adc-5249-9b6b-a33d3973e37f	TR_BES_AltGrup	TEXT		30	1	Bina eleman sınıflandırması alt grup adı	1	0
+PARAM	e26dd773-0432-52c5-8ae0-8f7ecc3498e5	TR_BES_ElemanKodu	TEXT		30	1	Bina eleman sınıflandırması detay eleman kodu	1	0
+PARAM	f49432a7-9977-581b-a1c8-a079452ac42f	TR_BES_ElemanAdi	TEXT		30	1	Bina eleman sınıflandırması detay eleman adı	1	0
+PARAM	3f8b38aa-88e8-5285-9f96-07c09b0d8151	TR_BES_Islev	TEXT		30	1	Elemanın işlevsel rolü	1	0
+PARAM	91cde87f-f74e-5bbf-95e9-6efa61c8b676	TR_BES_TeknikSistem	TEXT		30	1	Elemanın ait olduğu teknik sistem	1	0
+PARAM	5236a039-8fcf-5441-a2a4-c366b86c9f49	TR_BES_MalzemeAilesi	TEXT		30	1	Baskın malzeme veya malzeme ailesi	1	0
+PARAM	1fa45ead-9ebb-5960-ab03-612b8fb344b0	TR_BES_UretimDisiplini	TEXT		30	1	İmalat / disiplin sorumluluğu	1	0
+PARAM	aeaddd4c-8b6a-5b59-93ce-21dcca35fe1b	TR_BES_BakimGrubu	TEXT		30	1	İşletme bakım grubu	1	0
+PARAM	2e0a2bc4-58f7-5b20-8f43-eba9365cdd9d	TR_BES_ImalatSirasi	TEXT		30	1	Tavsiye edilen imalat sırası / paket ilişkisi	1	0
+PARAM	615935d1-f7b2-560a-9b54-248010563b1d	TR_CSB_BinaGrubuKod	TEXT		31	1	ÇŞİDB / idare bina grubu kodu	1	0
+PARAM	89ab1bce-931d-5b70-82a8-61f04ff670c9	TR_CSB_BinaGrubuAdi	TEXT		31	1	ÇŞİDB / idare bina grubu adı	1	0
+PARAM	d88adad5-6806-5f40-8570-e37099b74a4e	TR_CSB_YapiSinifiKod	TEXT		31	1	Yapı sınıfı kodu	1	0
+PARAM	f23d3414-042b-57b2-b19d-a640a7c7fe66	TR_CSB_YapiSinifiAdi	TEXT		31	1	Yapı sınıfı adı	1	0
+PARAM	df63d5fa-d89d-5f97-8fb5-e75ff043de47	TR_CSB_PozNo	TEXT		31	1	Poz numarası	1	0
+PARAM	b5ef778a-7a3d-59fa-b566-8f7f65b80249	TR_CSB_PozTanimi	TEXT		31	1	Poz tanımı	1	0
+PARAM	32a48cf4-b299-5950-879f-59e025bc2c20	TR_CSB_PozBirim	TEXT		31	1	Poz ölçü birimi	1	0
+PARAM	15b246da-a193-5881-a8a7-c59fd7e49605	TR_CSB_PozAnaGrup	TEXT		31	1	Pozun ait olduğu ana mantıksal grup	1	0
+PARAM	c0e68cf0-a48f-5f42-8d57-0922d6118f2f	TR_CSB_PozAltGrup	TEXT		31	1	Pozun ait olduğu alt mantıksal grup	1	0
+PARAM	1f784219-c578-5424-828d-71fe0930ca4c	TR_CSB_RayicKod	TEXT		31	1	Rayiç kodu	1	0
+PARAM	a0d07ece-1f65-549a-924c-b6da24aaebc7	TR_CSB_RayicTanimi	TEXT		31	1	Rayiç tanımı	1	0
+PARAM	0b79e60e-ac3c-56be-913a-d61a81f4c8f0	TR_CSB_IsKalemiTuru	TEXT		31	1	İş kalemi türü: imalat / rayiç / ekipman / hizmet	1	0
+PARAM	ac58dfd3-1780-54e9-8d83-f745dfb3960a	TR_CSB_BirimFiyatYili	INTEGER		31	1	Birim fiyat yılı	1	0
+PARAM	6e3065ba-1367-56c8-9e50-d9f3e3c9dc1c	TR_CSB_BirimFiyatKaynak	TEXT		31	1	Birim fiyat kaynağı (ÇŞİDB, idare, özel analiz vb.)	1	0
+PARAM	83fe9e8b-3124-5e84-a37b-da545a52881a	TR_CSB_AnalizGirdisi	YESNO		31	1	İş kalemi analiz girdisi olarak kullanılacak mı?	1	0
+PARAM	56a9cd33-aa84-561c-aaf6-b85cfad59733	TR_CSB_2026_SinifGrupKodu	TEXT		31	1	ÇŞB 2026 yapı sınıfı ve grup kodu (ör. III-B)	1	0
+PARAM	9bc7de7b-4995-5faf-be32-1561c1261411	TR_CSB_2026_SinifGrupAdi	TEXT		31	1	ÇŞB 2026 yapı sınıfı ve grup adı	1	0
+PARAM	e861323a-cc69-5e5b-a898-aac7d2a5c4f3	TR_CSB_2026_BirimMaliyet	NUMBER		31	1	ÇŞB 2026 yapı yaklaşık birim maliyeti (TL/m²)	1	0
+PARAM	564658a3-2f31-5f54-9689-32d204a842af	TR_CSB_2026_MaliyetKapsami	MULTILINETEXT		31	1	ÇŞB 2026 birim maliyet kapsam / hariç tutulan giderler notu	1	0
+PARAM	aa80f28c-c7f0-58e5-8326-b3990ce95ce3	TR_CSB_YapiAnaFonksiyonu	TEXT		31	1	Yapının ana işlevi / kullanım türü	1	0
+PARAM	a93b6457-6276-5a52-9278-d587a135c3ab	TR_CSB_YapiAltFonksiyonu	TEXT		31	1	Yapının alt işlevi / detay kullanım türü	1	0
+PARAM	f324f3f7-bea5-55cc-8b6b-52ae4f59afaf	TR_MahalKodu	TEXT		32	1	Mahal / room / zone kodu	1	0
+PARAM	50a8324c-e522-5973-a92b-a8b8c0f0414b	TR_MahalAdi	TEXT		32	1	Mahal adı	1	0
+PARAM	11fe86e7-6c3e-5b75-8b30-e61c88d13a1d	TR_MahalFonksiyonu	TEXT		32	1	Mahal fonksiyonu / kullanım amacı	1	0
+PARAM	e923f337-ceee-5b0e-aea5-ba0d184a4bbc	TR_BlokKodu	TEXT		32	1	Blok / bina alt birim kodu	1	0
+PARAM	a7fa01ad-b548-5df1-8056-fdff96a5fdf9	TR_KatKodu	TEXT		32	1	Kat / seviye kodu	1	0
+PARAM	49839eb5-fcf0-5223-9552-c6e163e3ac88	TR_ZonKodu	TEXT		32	1	Fonksiyonel / yangın / işletme zonu	1	0
+PARAM	e676fd2c-a581-54c0-bfab-d7300eef04a1	TR_AksX	TEXT		32	1	X aks referansı	1	0
+PARAM	59864f17-a8dd-50cb-8459-04dd3085dab3	TR_AksY	TEXT		32	1	Y aks referansı	1	0
+PARAM	bef55968-1571-5c3c-9e6e-da3310913707	TR_KonumNotu	TEXT		32	1	Konumsal açıklama notu	1	0
+PARAM	16035ff9-8b62-5b06-b145-d2825d694c5f	TR_BinaBolumu	TEXT		32	1	Bina bölümü / kanat / çekirdek / servis alanı	1	0
+PARAM	db5759a2-3606-5a52-9465-e8adef50f661	TR_FazAlani	TEXT		32	1	Faz / etap / inşaat bölgesi	1	0
+PARAM	d567849d-e8e8-58b4-b50f-7d93289be8fa	TR_IsletmeBolgesi	TEXT		32	1	İşletme ve bakım bölgesi	1	0
+PARAM	7a437dd9-d9b1-523b-b164-86f206784b6e	TR_IFC_ExportEt	YESNO		33	1	Eleman IFC çıktısına dahil edilsin mi?	1	0
+PARAM	16bc4d81-6eeb-5c8a-b11a-12f30ecddefc	TR_IFC_EntityOverride	TEXT		33	1	Gerekirse elemanın IFC entity karşılığı	1	0
+PARAM	dd0b0fad-535f-5c69-80b9-5d3ea434d32f	TR_IFC_PredefinedType	TEXT		33	1	IFC PredefinedType değeri	1	0
+PARAM	4fa6b281-1d55-5f96-8333-d452f4c375ed	TR_IFC_NameOverride	TEXT		33	1	IFC Name alanına yazılacak özel ad	1	0
+PARAM	247ec523-13fb-5482-ab71-f2574199ad58	TR_IFC_DescriptionOverride	TEXT		33	1	IFC Description alanına yazılacak açıklama	1	0
+PARAM	a84419ab-1b79-51f3-9711-453bf2fdae48	TR_IFC_ObjectTypeOverride	TEXT		33	1	IFC ObjectType alanı	1	0
+PARAM	fff7b98d-7be4-5751-887a-06dce94e28c9	TR_IFC_TagOverride	TEXT		33	1	IFC Tag alanı	1	0
+PARAM	5fd9214e-cda4-54cd-9098-cc0d747c2495	TR_IFC_ClassificationName	TEXT		33	1	IFC sınıflandırma set adı	1	0
+PARAM	012b9fbc-e717-56c1-a80b-096e869489d8	TR_IFC_ClassificationSource	TEXT		33	1	IFC sınıflandırma kaynağı / yayıncısı	1	0
+PARAM	7325b80c-3013-5c79-992f-322e4ff59039	TR_IFC_ClassificationEdition	TEXT		33	1	IFC sınıflandırma sürümü	1	0
+PARAM	eb6ced96-109d-59d9-88a2-564f4182602c	TR_IFC_ClassificationURI	TEXT		33	1	IFC sınıflandırma URI / referans linki	1	0
+PARAM	446abe60-9571-5548-a70c-7f34cdb1645a	TR_IFC_PsetSeti	TEXT		33	1	Eleman için etkinleştirilecek özel property set kümesi	1	0
+PARAM	791db967-6794-5fda-b7aa-f130708d9eba	TR_IFC_AktarimNotu	MULTILINETEXT		33	1	IFC aktarım notu / istisna açıklaması	1	0
+PARAM	3173ef3b-62fb-5251-95a7-c600bb48da6a	TR_IFC_Dogrulandi	YESNO		33	1	IFC aktarımı kalite kontrolden geçti mi?	1	0
+PARAM	b9c6c78f-4890-5f16-afd1-929acb868e22	TR_MetrajKurali	TEXT		34	1	Metraj alma kuralı / ölçü kuralı	1	0
+PARAM	f7e1793d-0582-5608-b72f-1b65bd2c28b3	TR_MetrajBirim	TEXT		34	1	Metraj birimi	1	0
+PARAM	1687ed8c-9a58-5302-9c51-b565b83477ef	TR_MetrajCarpan	NUMBER		34	1	Metraj çarpanı	1	0
+PARAM	1d1c56b7-08f4-5c8d-abef-b282a0eb0079	TR_MetrajDahil	YESNO		34	1	Metraja dahil mi?	1	0
+PARAM	89e5e0b8-0776-56f2-8e47-71125a75651a	TR_AnalizGirdiTipi	TEXT		34	1	Analiz girdisi tipi: işçilik / makine / malzeme / genel gider	1	0
+PARAM	e9f240c3-6509-5284-80e8-364367076dd5	TR_AnalizBilesenKodu	TEXT		34	1	Analiz bileşen kodu	1	0
+PARAM	2fcad40b-cc25-5c00-804e-6cf45419d857	TR_MaliyetMerkezi	TEXT		34	1	Maliyet merkezi / bütçe kırılımı	1	0
+PARAM	716a3ad3-8df7-580e-ac7a-3332abd11fa8	TR_KesifPaketNo	TEXT		34	1	Keşif / teklif paketi numarası	1	0
+PARAM	aa8a4c6a-b336-5419-a8a6-4effc656f2a2	TR_ImalatFasi	TEXT		34	1	İmalat fazı / aşaması	1	0
+PARAM	fe27fb79-337f-5641-841e-c4163023e609	TR_IsGrubu	TEXT		34	1	İş grubu / trade	1	0
+PARAM	a753f0aa-13c0-546b-976e-024b59108961	TR_TedarikPaketNo	TEXT		34	1	Tedarik / satınalma paketi numarası	1	0
+PARAM	b5cbb224-1710-5d0b-bed8-d63f3600a819	TR_SantiyeDisiplin	TEXT		34	1	Şantiye disiplin sorumluluğu	1	0
+PARAM	b44b8cd6-4402-5e8a-80be-4577d87bc574	TR_HakedisNo	TEXT		34	1	Hakediş / ilerleme ödeme referansı	1	0
+PARAM	835c114d-a421-5494-b7db-5faa542f2b59	TR_MaliyetNotu	MULTILINETEXT		34	1	Maliyet / metraj / keşif açıklama notu	1	0
+PARAM	16d01211-6573-531b-9d4f-0417a885bc52	TR_QA_DosyaAdiKontrol	YESNO		35	1	Dosya adı proje naming convention ile uyumlu mu?	1	0
+PARAM	7b03bdd7-aacb-5879-abe5-863671e796fb	TR_QA_YerelKonumKontrol	YESNO		35	1	Modelin yerel koordinatı ve başlangıç noktası kontrol edildi mi?	1	0
+PARAM	94eae745-bf84-52cb-a4d2-ceb6027a2a4d	TR_QA_KatAdlandirmaKontrol	YESNO		35	1	Kat/seviye isimleri proje standardına uygun mu?	1	0
+PARAM	301257ed-9a4d-523b-9a72-e145ec221c6c	TR_QA_DogruIfcTur	YESNO		35	1	Eleman doğru IFC türü / entity ile eşlenmiş mi?	1	0
+PARAM	bdc2268f-0e89-502e-96c0-eaed30e8ef2a	TR_QA_AdlandirmaKontrol	YESNO		35	1	Nesne/ad/tip adlandırması tutarlı mı?	1	0
+PARAM	59a160b5-6c15-552e-ad91-a3016d538422	TR_QA_SiniflandirmaKontrol	YESNO		35	1	Eleman sınıflandırma bilgisi eksiksiz mi?	1	0
+PARAM	e99843cb-4fcf-542c-8f81-66354526620c	TR_QA_MalzemeAtamasi	YESNO		35	1	Elemanlara doğru malzeme atanmış mı?	1	0
+PARAM	0e3f496b-ee4c-58bb-99e2-b677ef539c79	TR_QA_CakismaKopyaKontrol	YESNO		35	1	Kopya ve çakışma kontrolü yapıldı mı?	1	0
+PARAM	89c98854-e58e-5eb3-b3d5-1d8c3a1cb7b1	TR_QA_LoadBearing	YESNO		35	1	LoadBearing niteliği kontrol edildi mi?	1	0
+PARAM	ff21adee-0d06-5ce2-8ca3-5abfdb0ccd21	TR_QA_IsExternal	YESNO		35	1	IsExternal niteliği kontrol edildi mi?	1	0
+PARAM	bae7ffa5-d40a-5658-b2ad-1ce25b3ad736	TR_QA_FireRating	YESNO		35	1	FireRating niteliği kontrol edildi mi?	1	0
+PARAM	da04c8be-43c5-577a-aba4-2c2595cc9040	TR_QA_TeslimDurumu	TEXT		35	1	Taslak / Kontrol / Revizyon / Onaylandı	1	0
+PARAM	fcbdcfde-d1d4-577b-9bef-9c658cf37105	TR_QA_KontrolEden	TEXT		35	1	QA kontrolünü yapan kişi / ekip	1	0
+PARAM	44c780c6-9d5f-56f1-8489-67274828c70b	TR_QA_KontrolTarihi	TEXT		35	1	QA kontrol tarihi	1	0
+PARAM	8f338990-cda9-5b37-8043-f1ff75f878ac	TR_QA_Not	MULTILINETEXT		35	1	Kalite kontrol notu / düzeltme açıklaması	1	0
+PARAM	6504c886-0077-5725-a783-ff2dd99538aa	TR_ILS_TeslimAsamasi	TEXT		36	1	Bilgi teslim aşaması (Konsept / Ön / Kesin / Uygulama / As-built)	1	0
+PARAM	d2903811-1e7e-53d4-9b25-c651ca9410dc	TR_ILS_BilgiGereksinimSeviyesi	TEXT		36	1	İstenen bilgi seviyesi / teslim beklentisi	1	0
+PARAM	2a2e9787-e1da-5aa6-bf37-88b5f45e9549	TR_ILS_GeometriSeviyesi	TEXT		36	1	Geometri olgunluğu / temsil seviyesi	1	0
+PARAM	6fa8f492-d089-59f9-aee2-891e21b736a8	TR_ILS_AlfanumerikSeviye	TEXT		36	1	Zorunlu alfanümerik bilgi seviyesi	1	0
+PARAM	974095ea-429e-56d7-9548-aa553158fae8	TR_ILS_DokumanBagi	TEXT		36	1	İlgili şartname / katalog / doküman bağlantısı	1	0
+PARAM	006a1098-70ac-5f92-b3b5-7cca186e4f7b	TR_ILS_ZorunluAlanSeti	TEXT		36	1	Teslimde zorunlu alan seti adı	1	0
+PARAM	5a83cf73-de06-5399-8307-95702f1a2ccc	TR_ILS_DogrulamaKuralSeti	TEXT		36	1	Uygulanacak kural seti / kontrol paketi	1	0
+GROUP	37	TR-KALIP POZ VE METRAJ
+PARAM	a1b2c3d4-e5f6-4a7b-8c9d-000000000001	TR_KalipPozNo	TEXT		37	1	Kalıp imalat poz numarası (ÇŞB 15.180.xxxx)	1	0
+PARAM	a1b2c3d4-e5f6-4a7b-8c9d-000000000002	TR_KalipPozAdi	TEXT		37	1	Kalıp imalat poz adı	1	0
+PARAM	a1b2c3d4-e5f6-4a7b-8c9d-000000000003	TR_KalipBirimFiyat	NUMBER		37	1	Kalıp birim fiyatı (TL/m²)	1	0
+PARAM	a1b2c3d4-e5f6-4a7b-8c9d-000000000004	TR_KalipAlani	NUMBER		37	1	Kalıp alanı (m²) — hesaplanan	1	0
+PARAM	a1b2c3d4-e5f6-4a7b-8c9d-000000000005	TR_KalipToplamTutar	NUMBER		37	1	Kalıp toplam tutar (TL)	1	0

@@ -1,0 +1,31 @@
+﻿# TR BIM IFC ParameterMappingTable — QA + ÇŞB 2026
+# Bu dosya TR_BIM master shared parametrelerini IFC Common Property Sets ile eşlemek için başlangıç setidir.
+# Kullanmadığınız satırların başına # koyabilirsiniz.
+#Pset	Property	Revit Parameter
+Pset_WallCommon	FireRating	TR_DuvarREI
+Pset_WallCommon	ThermalTransmittance	TR_DuvarUDegeri
+Pset_WallCommon	AcousticRating	TR_DuvarSesYalitim
+Pset_WallCommon	IsExternal	TR_IsDisEleman
+Pset_WallCommon	LoadBearing	TR_IsTasiyici
+Pset_DoorCommon	FireRating	TR_KapiYangınSinifi
+Pset_DoorCommon	ThermalTransmittance	TR_KapiUDegeri
+Pset_DoorCommon	AcousticRating	TR_KapiSesYalitim
+Pset_DoorCommon	HandicapAccessible	TR_KapiEngelli
+Pset_DoorCommon	Reference	TR_KapiTipi
+Pset_WindowCommon	ThermalTransmittance	TR_PencereUDegeri
+Pset_WindowCommon	AcousticRating	TR_PencereSesYalitim
+Pset_WindowCommon	Reference	TR_PencereTipi
+Pset_SlabCommon	FireRating	TR_DosemeREI
+Pset_SlabCommon	ThermalTransmittance	TR_DosemeUDegeri
+Pset_SlabCommon	AcousticRating	TR_DosemeSesYalitim
+Pset_SlabCommon	LoadBearing	TR_IsTasiyici
+Pset_RoofCommon	FireRating	TR_CatiREI
+Pset_RoofCommon	ThermalTransmittance	TR_CatiUDegeri
+Pset_RoofCommon	Reference	TR_CatiTipi
+Pset_SpaceCommon	Reference	TR_MahalKodu
+Pset_SpaceCommon	Category	TR_MahalFonksiyonu
+Pset_BeamCommon	LoadBearing	TR_IsTasiyici
+Pset_BeamCommon	FireRating	TR_QA_FireRating
+Pset_ColumnCommon	LoadBearing	TR_IsTasiyici
+Pset_ColumnCommon	FireRating	TR_QA_FireRating
+# Sınıflandırma ve proje özel alanları için CustomPsets dosyasını kullanın.

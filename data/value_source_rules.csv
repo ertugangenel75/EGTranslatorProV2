@@ -1,0 +1,14 @@
+HedefParametre_TR,KategoriProfili,BaglamaTuru,BirincilKaynak,IkincilKaynak,UcunculKaynak,Not
+TR_KapiYukseklik,Architecture - Doors,Type,builtin:Height,builtin:Rough Height,,Kapı yüksekliği için önce Height sonra Rough Height
+TR_KapiGenislik,Architecture - Doors,Type,builtin:Width,,,Kapı genişliği
+TR_PencereYukseklik,Architecture - Windows,Type,builtin:Height,,,Pencere yüksekliği
+TR_PencereGenislik,Architecture - Windows,Type,builtin:Width,,,Pencere genişliği
+TR_PozNo,All Model Categories,Type,manual,param:Type Mark,,Poz no kullanıcı veya type mark
+TR_PozAdi,All Model Categories,Type,lookup:poz_lookup.json[TR_PozNo].tanim,,,Poz tanımı lookup
+TR_PozBirim,All Model Categories,Type,lookup:poz_lookup.json[TR_PozNo].birim,,,Poz birimi lookup
+TR_PozMiktar,All Model Categories,Instance,manual_or_schedule,,,Metrajdan veya kullanıcıdan
+TR_ElemanKod,All Model Categories,Type,lookup:cadd_class_map[bSTR_Kod].eleman_kodu,lookup:cadd_class_map[bSTR_Kod].cadd_katman,,Eleman kodu bSTR üstünden
+TR_Disiplin,All Model Categories,Type,manual_controlled_list,,,Kontrollü listeden seçilir
+TR_SinifSistemi,All Model Categories,Type,manual_controlled_list,,,Kontrollü listeden seçilir
+TR_SinifKod1,All Model Categories,Type,manual_controlled_list,,,Kontrollü listeden seçilir
+TR_SinifAdi,All Model Categories,Type,manual_controlled_list,,,Kontrollü listeden seçilir

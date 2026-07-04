@@ -1,0 +1,126 @@
+DegerTuru,Deger_TR,StandartKarsilik_EN_veyaKatman,KaynakTipi,IliskiliKod,Not
+Disiplin,Mimari,Mimari,kontrollu_liste,,Temel disiplin değeri
+Disiplin,Mekanik,Mekanik,kontrollu_liste,,Temel disiplin değeri
+Disiplin,Elektrik,Elektrik,kontrollu_liste,,Temel disiplin değeri
+Disiplin,Sıhhi Tesisat,Sihhi_Tesisat,kontrollu_liste,,Temel disiplin değeri
+Disiplin,Statik,Statik,kontrollu_liste,,Temel disiplin değeri
+Disiplin,Ortak/BIM,Ortak/BIM,kontrollu_liste,,Temel disiplin değeri
+ElemanRolü,ReferansKaynak,ReferansKaynak,kontrollu_liste,,Otomasyon ve raporlama rolü
+ElemanRolü,HedefEleman,HedefEleman,kontrollu_liste,,Otomasyon ve raporlama rolü
+ElemanRolü,HostEleman,HostEleman,kontrollu_liste,,Otomasyon ve raporlama rolü
+ElemanRolü,MaliyetKaynak,MaliyetKaynak,kontrollu_liste,,Otomasyon ve raporlama rolü
+ElemanRolü,Raporlama,Raporlama,kontrollu_liste,,Otomasyon ve raporlama rolü
+ElemanRolü,Kontrol,Kontrol,kontrollu_liste,,Otomasyon ve raporlama rolü
+Sınıf,Kapı,Kapi,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Pencere,Pencere,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Duvar,Duvar,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Döşeme,Doseme,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Mobilya,Mobilya,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Klozet,Klozet,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Lavabo,Lavabo,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Priz,Priz,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Anahtar,Anahtar,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Aydınlatma,Aydinlatma,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,MekanikEkipman,MekanikEkipman,kontrollu_liste,,Türkçe ana sınıf
+Sınıf,Generic,Generic,kontrollu_liste,,Türkçe ana sınıf
+bSTR_Kod,B-CCTV-01,E-GVN-KAMERA,cadd_mapping,B,CADD layer mapping kaynağı
+bSTR_Kod,B-GUV-01,E-GVN-SISTEM,cadd_mapping,B,CADD layer mapping kaynağı
+bSTR_Kod,B-GUV-02,E-GVN-BUTON,cadd_mapping,B,CADD layer mapping kaynağı
+bSTR_Kod,B-GUV-03,E-GVN-KARTOKUYUCU,cadd_mapping,B,CADD layer mapping kaynağı
+bSTR_Kod,B-GUV-04,E-GVN-KAPIKONTAGI,cadd_mapping,B,CADD layer mapping kaynağı
+bSTR_Kod,B-VER-01,E-ZYN-TELEFON,cadd_mapping,B,CADD layer mapping kaynağı
+bSTR_Kod,B-VER-02,E-ZYN-TELEFON,cadd_mapping,B,CADD layer mapping kaynağı
+bSTR_Kod,B-VER-03,E-ZYN-DATAPRIZ,cadd_mapping,B,CADD layer mapping kaynağı
+bSTR_Kod,E-ALG-01,E-KUV-ANADADPANO,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-ALG-02,E-KUV-TALIDAPANO,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-AYD-01,E-KUV-AYDINLATMA,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-AYD-02,E-KUV-ANAHTAR,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-KAB-01,E-KUV-KABLOTAVA,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-KAB-02,E-KUV-KABLUBORU,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-ORG-01,E-KUV-OGHUCRE,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-ORG-02,E-KUV-TRAFO,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-PRZ-01,E-KUV-PRIZSEBEKE,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-PRZ-02,E-KUV-PRIZSEBEKE,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-YAN-01,E-YNS-ALARMPANO,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-YAN-02,E-YNS-DEDKTOR,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,E-YAN-03,E-YNS-BUTON,cadd_mapping,E,CADD layer mapping kaynağı
+bSTR_Kod,M-AST-01,M-TVAN-ALCIPANEL,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-AST-02,M-TVAN-KAPLAMA,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-CAT-01,M-CATI-KAPLAMA,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-CAT-02,M-CATI-KONSTR,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-CAT-03,M-CATI-OLUK,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-CAT-04,M-CATI-BACA,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-DUV-01,M-DUVA-TUGLA,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-DUV-02,M-DUVA-GAZBETON,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-DUV-03,M-DUVA-ALCIPANEL,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-DUV-04,M-DZCP-EPS,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-DUV-05,M-DZCP-XPS,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-DUV-06,M-DZCP-SUPURGELIK,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-KAP-01,M-KPKN-AHSAP,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-KAP-02,M-KPKN-KATLANIR,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-KAP-03,M-KPKN-KEPENK,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-KAP-04,M-KPKN-ALUMINYUM,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-KAP-05,M-KPKN-DONER,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-MER-01,M-MERD-BETONARME,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-MER-02,M-MERD-GEMICI,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-MER-03,M-MERD-KAPLAMA,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-PNC-01,M-PNKT-ALUMINYUM,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-PNC-02,M-PNKT-ISIKLIK,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-PNC-03,M-PNKT-PARAPET,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-PNC-04,M-PNKT-CAMEKAN,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-01,T-SHT-LAVABO,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-02,T-SHT-KLOZET,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-03,T-SHT-PISUVAR,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-04,T-SHT-PISUVAR,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-05,T-SHT-EVIYE,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-06,T-SHT-DUSAKABIN,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-07,T-SHT-EKIPMAN,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-08,T-SHT-EKIPMAN,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-09,T-SHT-EKIPMAN,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-10,T-SHT-EKIPMAN,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-SHT-11,T-SHT-EKIPMAN,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-ZMN-01,M-ZMNK-SERAMIK,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-ZMN-02,M-ZMNK-YUKSELTILMIS,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-ZMN-03,M-ZMNK-UKANAL,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,M-ZMN-04,M-DZCP-SUPURGELIK,cadd_mapping,M,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-01,M-TASI-TEMELKIRIS,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-02,M-TASI-TEMELPABUC,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-03,M-TASI-TEMELDOS,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-04,M-TASI-BETONARME,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-05,M-TASI-KAZIK,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-06,M-TASI-PERDEDUVARI,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-07,M-TASI-ISTINAT,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-08,M-TASI-DOSEME,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-09,M-TASI-KOLON,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-10,M-TASI-KIRIS,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-11,M-MERD-BETONARME,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-12,M-TASI-BOSLUK,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-BET-13,M-TASI-YALITIM,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-CEL-01,M-TASI-CELIKDOS,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-CEL-02,M-TASI-CELIKKOLON,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-CEL-03,M-TASI-CELIKKIRIS,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-CEL-04,M-MERD-CELIK,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-CEL-05,M-TASI-GERGI,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,S-CEL-06,M-TASI-UZAYKAFES,cadd_mapping,S,CADD layer mapping kaynağı
+bSTR_Kod,T-BOR-01,T-SHT-SGKSUBORU,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-BOR-02,T-SHT-VANA,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAV-01,T-IST-FAN,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAV-02,T-IST-KLIMA,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAV-03,T-IST-KLS,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAV-08,T-IST-FANCOIL,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAV-10,T-IST-KAZAN,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAV-11,T-IST-POMPA,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAV-14,T-IST-RADYATOR,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAV-16,T-IST-DAVLUMBAZ,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAVA-01,T-HVL-UFLKANALI,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-HAVA-04,T-HVL-AKSESUAR,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-KAN-01,T-KNL-PISSPOMPA,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-KAN-04,T-KNL-YAGAYIRICI,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-SHT-01,T-SHT-HIDROFOR,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,T-SHT-02,T-SHT-SUSICAKLIK,cadd_mapping,T,CADD layer mapping kaynağı
+bSTR_Kod,Y-YAN-01,T-YNG-POMPASI,cadd_mapping,Y,CADD layer mapping kaynağı
+bSTR_Kod,Y-YAN-02,T-YNG-SPRINKLER,cadd_mapping,Y,CADD layer mapping kaynağı
+bSTR_Kod,Y-YAN-03,T-YNG-DOLAP,cadd_mapping,Y,CADD layer mapping kaynağı
+bSTR_Kod,Y-YAN-04,T-YNG-ITFAIYE,cadd_mapping,Y,CADD layer mapping kaynağı
+bSTR_Kod,Y-YAN-05,T-YNG-HIDRANT,cadd_mapping,Y,CADD layer mapping kaynağı
+bSTR_Kod,Y-YAN-06,T-YNG-SONDURCU,cadd_mapping,Y,CADD layer mapping kaynağı
